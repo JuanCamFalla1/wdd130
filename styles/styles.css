@@ -41,15 +41,17 @@ aside {
        
 }
 
-aside img {
-    width : 200px ;
-    height: auto;
-}
 
 img {
     width: 150px;
     height : auto;
 }
+
+aside img {
+    width : 200px ;
+    height: auto;
+}
+
 
 p { padding: 0;}
 
