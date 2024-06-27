@@ -7,18 +7,18 @@ body {
 }
 
 :root {
---primary-color: #414770;
---secondary-color: #5B85AA;
---accent1-color: #DDDDDD;
---accent2-color: #E98A15;
+    --primary-color: #414770;
+    --secondary-color: #5B85AA;
+    --accent1-color: #DDDDDD;
+    --accent2-color: #E98A15;
 
---heading-font :'Roboto',serif;
---paragraph-font:'Roboto',serif;
+    --heading-font :'Roboto',serif;
+    --paragraph-font:'Roboto',serif;
 
---nav-background-color:#414770;
---nav-link-color: #5B85AA;
---nav-hover-link-color: #DDDDDD;
---nav—hover-background-color: #E98A15;
+    --nav-background-color:#414770;
+    --nav-link-color: #5B85AA;
+    --nav-hover-link-color: #DDDDDD;
+    --nav—hover-background-color: #E98A15;
 }
 
 h1, h2, h3, h4, h5, h6 {
