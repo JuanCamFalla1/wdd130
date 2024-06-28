@@ -62,7 +62,7 @@ p {
 navigation part i copied everything from before and tweek it to make it work for the assigment */
 
 nav {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex;
 }
 nav a  {
