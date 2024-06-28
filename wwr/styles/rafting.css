@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+
+:root {
+    --primary-color:#414770;
+    --secondary-color:#5B85AA;
+    --accent1-color:#DDDDDD;
+    --accent2-color:#E98A15;
+
+    --heading-font :'Roboto',serif;
+    --paragraph-font:'Roboto',serif;
+
+    --nav-background-color:#414770;
+    --nav-link-color:#5B85AA;
+    --nav-hover-link-color:#DDDDDD;
+    --nav-hover-background-color:#E98A15;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* Div image intent to make it work */
+
+
+
+
+
+
+/* div article img {
+	width: 30%;
+	height: auto;	
+    position: absolute;
+    float: right;
+}
+
+h1 {
+    position: absolute;
+    
+}
+
+article p {
+    position: absolute;
+} */
+
+
+
+
+
+header {
+    padding: 5px;
+    
+}
+p {
+    padding: 1px;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+/* 
+navigation part i copied everything from before and tweek it to make it work for the assigment */
+
+nav {
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a  {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
