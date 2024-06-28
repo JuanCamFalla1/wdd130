@@ -16,34 +16,49 @@
     --nav-hover-background-color:#E98A15;
 }
 
+main{
+    max-width: 1000px;
+    margin: 2rem auto;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-/* Div image intent to make it work */
 
 
+.hero {
+    color: black;
+  }
 
-
-
-
-/* div article img {
-	width: 30%;
-	height: auto;	
-    position: absolute;
-    float: right;
+.hero img {
+display: block;
+height: auto;
 }
 
+.image {
+width: 100%;
+}
 h1 {
-    position: absolute;
-    
+position: absolute;
+top: 40%;
+color: var(--accent2-color);
+left: 35%;
+background-color: rgba(4, 4, 8, 0.363);
+
 }
-
-article p {
-    position: absolute;
-} */
-
+article {
+position: absolute;
+top: 60%;
+color: black;
+background-color: rgba(123, 123, 194, 0.363);
+font-size: 15px;
+margin: 10px;
+}
+article img {
+float: right;
+width: 20%;
+}
 
 
 
@@ -56,6 +71,7 @@ p {
     padding: 1px;
     color: var(--secondary-color);
     font-family: var(--heading-font);
+    
 }
 
 /* 
