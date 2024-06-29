@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+
+:root {
+    --primary-color:#414770;
+    --secondary-color:#5B85AA;
+    --accent1-color:#DDDDDD;
+    --accent2-color:#E98A15;
+
+    --heading-font :'Roboto',serif;
+    --paragraph-font:'Roboto',serif;
+
+    --nav-background-color:#414770;
+    --nav-link-color:#5B85AA;
+    --nav-hover-link-color:#DDDDDD;
+    --nav-hover-background-color:#E98A15;
+}
+
+main{
+    
+    
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+
+
+
+header {
+    padding: 5px;
+    
+}
+p {
+    padding: 1px;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+* section {
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+/* 
+navigation part i copied everything from before and tweek it to make it work for the assigment */
+
+nav {
+    font-size: 1.5rem;
+    display: flex;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+nav a  {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 2rem auto; 
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+.hero img {
+display: block;
+height: auto;
+
+
+}
+
+.image {
+width: 100%;
+height: auto;
+
+}
+
+
+h1 {
+font-size: 250%;
+position: absolute;
+top: 50%;
+color: var(--accent2-color);
+left: 40%;
+background-color: rgba(4, 4, 8, 0.363);
+
+}
+article {
+position: absolute;
+top: 60%;
+padding: 10px;
+color: var(--accent1-color);
+background-color: rgba(217, 217, 221, 0.363);
+font-size: 200%;
+margin: 5px;
+width: 900px;
+
+}
+article img {
+float: right;
+width: 35%;
+
+}
+
+
+
+
