@@ -205,32 +205,12 @@ History Section so it can be easier to identify */
  
 
 
-.b3{
-    grid-area:3 / 1 / 4 / 2; 
-    justify-self: center;
+.b3, .b5, .b7, .b9, .b11{   
+    
     color: var(--secondary-color);
 }
 
-.b5{
-    grid-area:3 / 2 / 4 / 3;
-    justify-self: center; 
-    color: var(--secondary-color);
-}
-.b7{
-    grid-area:3 / 3 / 4 / 4;
-    justify-self: center;
-    color: var(--secondary-color);
-}
-.b9{
-    grid-area:3 / 4 / 4 / 5;
-    justify-self: center;
-    color: var(--secondary-color);
-}
-.b11{
-    grid-area:3 / 5 / 4 / 6;
-    justify-self: center;
-    color: var(--secondary-color);
-}
+
 
 
 
