@@ -163,7 +163,7 @@ History Section so it can be easier to identify */
     width: 100%;
     height: 100px;
     grid-template-columns:repeat(5, 300px);
-    grid-template-rows: 100px, 1fr;
+    grid-template-rows: 100px 1fr;
     grid-gap: 10px;
     margin: 20px;
     justify-content: center;
