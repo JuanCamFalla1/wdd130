@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 .gr1-8 {
-    
+    border-style:hidden;
     width: 400px;
     height: 400px;
     
@@ -171,6 +171,8 @@ nav a:hover {
 .grid2-7 {
     grid-area:2 / 3 / 3 / 4;
 }
+
+
 
 
 /* this section is going to be for the Form*/
