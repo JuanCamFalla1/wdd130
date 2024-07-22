@@ -251,5 +251,397 @@ fieldset {
  }
 
  main{
-    height:1200px;
+    min-height: 100vh;   
+    display: grid;   
+    
  }
+
+
+
+/* Trips header Call to Action */
+
+.Trips-header{
+    background-color: #414770;
+    background-image:url("/wwr/images/river-wide2.jpeg");
+    background-size: cover;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-weight: 200;
+    box-shadow:0px 2px 4px ;
+
+}
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container p {  
+    text-align: center ;
+    height:60px;
+    width:950px ;
+    justify-self: center;      
+    background-color:rgba(0, 0, 0, 0.301);
+    border-radius: 8px;
+}
+.container a {
+    display: inline-block;
+    padding: 15px 15px;
+    background-color: var(--accent2-color);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: white;    
+    font-family: var(--heading-font);
+    
+
+}
+
+
+ /* Trips Cards */
+
+.trips-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: auto; 
+    grid-gap: 10px;
+}
+
+.card {
+    width: 250px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0);
+}
+.card img{
+    width: 100%;
+    height: 150px;
+}
+.card-content {
+    padding: 16px;
+}
+.card-content h2{
+    font-size: 28px;
+    margin-bottom: 8px;
+
+}
+.card-content p{
+    color: var(--nav-background-color);
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: var(--nav-link-color);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: white;
+    font-family: var(--heading-font);
+}
+
+/* Trips Table */
+
+.trips-table {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 50px; 
+}
+
+table {
+    font-family: var(--heading-font);
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--nav-link-color);
+    color: #dddddd;
+  }
+  
+  tr:nth-child(odd) {
+    color: var(--nav-background-color);
+  }
+  .flex-trip{
+    display: flex;
+
+  }
+  
+  /*about us section */
+.pictures{
+    display: flex;
+  
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto; 
+    
+    grid-gap: 10px;
+}
+
+.pictures-card {
+    width: 700px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0);
+}
+
+.pictures-card img{
+    width: 100%;
+    height: 450px;
+    
+}
+
+.image2 {
+    position:absolute;
+    left: 70% ;
+    top:55% ;
+    z-index: 1;
+    width: 12% ;
+    height: 15%;
+    border-radius: 5px;
+    box-shadow:0px 2px 4px  rgba(0,0,0,0);
+}
+
+/* History Grid + Adventure title */ 
+
+.History-grid{
+    display: grid;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+.b1 {
+    text-align: center;
+    height:60px;
+    width: 425px;
+    justify-self: center;
+    font-size:2.6rem ;
+    box-shadow:0px 2px 4px ;
+    background-color:var(--nav-hover-background-color);
+    border-radius: 8px;
+}
+
+/* Index Header */
+
+
+.index-header{
+    background-color: #42444d;
+    background-image:url("/wwr/images/river-wide2.jpeg");
+    background-size: cover;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-weight: 200;
+    box-shadow:0px 2px 4px ;
+
+}
+
+.index-container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.index-container p {  
+    text-align: center ;
+    height:70px;
+    width:950px ;
+    justify-self: center;      
+    border-radius: 8px;
+    font-size: 1.7rem;
+    background-color: var(--accent2-color);
+    
+}
+.index-container a {
+    display: inline-block;
+    padding: 15px 15px;
+    background-color: var(--accent2-color);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: white;    
+    font-family: var(--heading-font);
+    
+
+}
+
+/* Form Container*/
+.form-container{
+    width: 300px;
+    height: 350px;
+    font-family:var(--heading-font) ;
+    
+}
+
+.form-container fieldset{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content:center;
+    padding-top: 80px;
+}
+
+#index-fullname, #index-useremail{
+    width: 80%;
+
+}
+
+.form-container button {
+    background-color: var(--nav-background-color);
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+
+/* Index Card*/
+
+
+.index-card {
+    width: 330px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0);
+}
+.index-card img{
+    width: 100%;
+    height: 200px;
+}
+.index-card-content {
+    padding: 16px;
+}
+.index-card-content h2{
+    font-size: 28px;
+    margin-bottom: 8px;
+
+}
+.index-card-content p{
+    color: var(--nav-background-color);
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.index-card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: var(--nav-link-color);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: white;
+    font-family: var(--heading-font);
+}
+
+/* Grid Card horizontal */
+
+.object-container{
+    display:flex;     
+    font-family: var(--paragraph-font);
+    padding: 0 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    width: 600px;
+    height: auto;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba( 0, 0, 0, .2);
+}
+
+.card-header {
+    border-right: 1px solid #dddddd;
+
+}
+.description{
+    background: #fbfbfb;
+
+}
+.card-header, .description {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-header a {
+    position: relative;
+    display: block;
+
+}
+
+.card-header img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(0,0,0, .06);
+    margin: 20px 30px;
+    transition: .2s;
+}
+.card-header a:hover img {
+    box-shadow: 0 0 0 12px rgba(0,0, 0, .1);
+}
+
+.card-header h2 {
+    color: var(--accent2-color);
+
+}
+.card-header h4 {
+    margin-bottom: 20px;
+}
+.card-description p  {
+    margin: 20px 30px;
+    padding: 30px;
+}
+
+
+
+.grid-main-index {
+    display: grid;
+    grid-gap: 10px;
+}
+
+/* this is the final grid control*/
+
+.index-frame {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+.main-index-card{
+    grid-column: 4 ;
+}
+
+.grid-main-index {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
