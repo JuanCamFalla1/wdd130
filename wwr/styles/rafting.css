@@ -262,7 +262,7 @@ fieldset {
 
 .Trips-header{
     background-color: #414770;
-    background-image:url("/wwr/images/river-wide2.jpeg");
+    background-image:url("images/river-wide2.jpeg");
     background-size: cover;
     color: white;
     padding-top: 200px;
@@ -566,7 +566,7 @@ table {
 
 .grid-container {
     display: grid;
-    grid-template-columns:repeat(2, 1fr) ;
+    grid-template-columns:repeat(2, 1fr ) ;
     width: 600px;
     height: auto;
     background: #fff;
