@@ -89,6 +89,9 @@ nav a:hover {
     justify-content: center;
     
 }
+.grid1 h1 {
+    color: var(--nav-background-color);
+}
 
 .gr1-8 {
     border-style:hidden;
@@ -143,6 +146,7 @@ nav a:hover {
 
 .grid2-1 {
     grid-area:1 / 2 / 2 / 3;
+    color: var(--nav-background-color);
 }
 
 
@@ -290,11 +294,12 @@ fieldset {
 .container a {
     display: inline-block;
     padding: 15px 15px;
-    background-color: var(--accent2-color);
+    background-color: var(--nav-background-color);
     text-decoration: none;
     border-radius: 4px;
     margin-top: 20px;
-    color: white;    
+    color: white;   
+    font-weight: 500; 
     font-family: var(--heading-font);
     
 
@@ -340,7 +345,7 @@ fieldset {
 .card-content .btn{
     display: inline-block;
     padding: 8px 16px;
-    background-color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
     text-decoration: none;
     border-radius: 4px;
     margin-top: 16px;
@@ -374,7 +379,7 @@ table {
   }
   
   tr:nth-child(even) {
-    background-color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
     color: #dddddd;
   }
   
@@ -449,7 +454,8 @@ table {
     background-color: #42444d;
     background-image:url("river-wide2.jpeg");
     background-size: cover;
-    color: white;
+    color: var(--nav-background-color);
+    font-weight: 500;
     padding-top: 200px;
     padding-bottom: 200px;
     font-weight: 200;
@@ -481,7 +487,7 @@ table {
     text-decoration: none;
     border-radius: 4px;
     margin-top: 20px;
-    color: white;    
+    color: var(--nav-background-color);    
     font-family: var(--heading-font);
     
 
@@ -548,7 +554,7 @@ table {
 .index-card-content .btn{
     display: inline-block;
     padding: 8px 16px;
-    background-color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
     text-decoration: none;
     border-radius: 4px;
     margin-top: 16px;
@@ -604,7 +610,7 @@ table {
 }
 
 .card-header h2 {
-    color: var(--accent2-color);
+    color: var(--nav-background-color);
 
 }
 .card-header h4 {
